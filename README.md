@@ -1,0 +1,2 @@
+# SpringBootWsTemplate
+Springboot webservice architecture
