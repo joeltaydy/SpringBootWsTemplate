@@ -7,18 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tshirtservice" />
+        <module name="serviceregistrydemo" />
         <module name="configservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configservice" target="1.8" />
       <module name="parent" target="1.5" />
+      <module name="serviceregistrydemo" target="1.8" />
       <module name="tshirtservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configservice" options="-parameters" />
+      <module name="serviceregistrydemo" options="-parameters" />
       <module name="tshirtservice" options="-parameters" />
     </option>
   </component>
