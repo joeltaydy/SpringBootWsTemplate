@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConfigServiceApplication",
+            "request": "launch",
+            "mainClass": "com.joeltaydy.configservice.ConfigServiceApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TshirtApplication<webservicekickstarter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.joeltaydy.webservicekickstarter.TshirtApplication",
+            "projectName": "webservicekickstarter",
+            "args": ""
+        }
+    ]
+}
